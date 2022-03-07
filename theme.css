@@ -1,0 +1,73 @@
+/* for reset css buh web uuded global */
+ul,ol,li{list-style: none; margin: 0; padding: 0;}
+/* end of reset css */
+
+/* for global css enehuu web ndee global*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+body{margin-top: 0;font-family: "Roboto condensed", sans-serif;font-size: 16px;background-color: #fff;}
+*{box-sizing: border-box;}
+*{-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box;}
+.container{max-width: 1016px; margin: 0 auto;}
+a{text-decoration: none;}
+a, button{color: inherit; transition: .3s;}
+/* end of global css */
+
+/* for layout css */
+header{min-height: 56px; background-color: #bb1919;}
+.section-header{width: 70%; margin-bottom: 20px;}
+/* end of layout css */
+
+/* for components */
+
+/* for banner */
+.banner img{width: 1012px; height: 100px;}
+.banner{display: inline-block; font-size: 23px;font-style: normal;}
+/* end of banner */
+
+/* for logo */
+.logo{float: left; margin: 13px 0;}
+.logo{display: block; height: 31px; width: 287px; background-repeat: no-repeat; background-position: center; background-size: contain;}
+/* end of logo */
+
+/*for social-icon*/
+.social-icon{float: right; margin: 14px 0;}
+.social-icon{color: #fff; font-size: 23px}
+/* end social-icon*/
+
+/* for social-menu */
+.social-menu{top: 110px; right: 430px; padding: 0 8px; color: #fff; font-size: 23px;}
+/* end of social-menu */
+
+/* for header-menu*/
+.header-menu {border-top: 1px solid #a91717; background-color: #a91717;}
+/*end header-menu*/
+
+/* for mainmenu */
+.main-menu li a {display: inline-block;padding: 11px 0 8px 9px;line-height: 18px; font-size: 15px; color: #fff; cursor: pointer; font-weight: 300;}
+.main-menu li a:hover {color: black; background-color: #ddd;}
+.c-navbar:after{display: block; content: '';}
+.c-navbar__ver:after{border-right: 1px solid #bb4545; margin-left: 12px; content: '';}
+/* end of mainmenu */
+
+/* for search-bar */
+.Search-bar button{height: 22px; border: none; cursor: pointer; background: #fff;}
+.Search-bar{display:inline-block; float: right; margin: 8px 0;}
+.Search-bar input[type=text] {float: right; padding: 6px;margin-top: 8px;margin-right: 16px; font-size: 17px;}
+.Search-bar input[type=text] {border: 1px solid #ccc;}
+.Search-bar input[type=text]{padding: 5px; float: left;border: none; font-size: 12px;background: white;}
+.Search-bar input[type=text]{float: left; margin: 0px;height: 22px; padding: 4px; background: #fff;}
+.Search-bar input[type=text]{margin-left: 60px}
+/* end search-bar */
+/* end of components */
+
+
+
+
+
+
+
+
+
+
+
+
